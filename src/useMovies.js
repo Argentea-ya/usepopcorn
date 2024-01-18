@@ -18,7 +18,7 @@ export function useMovies(query) {
           setError('');
           const res = await fetch(
             `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
-            { signal: controller.signal, referrerPolicy: 'unsafe_url' }
+            { signal: controller.signal, referrerPolicy: 'unsafe-url' }
           );
 
           if (!res.ok)
