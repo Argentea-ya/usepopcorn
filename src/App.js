@@ -8,7 +8,7 @@ const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 export default function App() {
-  const [query, setQuery] = useState('love');
+  const [query, setQuery] = useState('future');
   const [selectedId, setSelectedId] = useState(null);
 
   const { movies, isLoading, error } = useMovies(query);
