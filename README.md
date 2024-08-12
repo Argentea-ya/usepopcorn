@@ -9,3 +9,4 @@
 2. Add rating, add to watched list
 3. Save list of 'watched movies' to local storage
 4. Test-test
+5. Test-test 2
